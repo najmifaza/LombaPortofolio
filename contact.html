@@ -15,32 +15,7 @@
       rel="stylesheet"
     />
     <style>
-      /*
 
-TemplateMo 619 Axis Industrial
-
-https://templatemo.com/tm-619-axis-industrial
-
-*/
-
-      /* ============================================================
-   AXIS INDUSTRIAL — COMMON CSS
-   ============================================================
-   1. RESET & VARIABLES
-   2. BASE TYPOGRAPHY
-   3. UTILITY CLASSES
-   4. BUTTONS
-   5. HEADER / NAV
-   6. HERO (BASE)
-   7. SECTION SHARED
-   8. BENTO / SPEC CARD BASE
-   9. TICKER
-   10. FOOTER
-   11. SCROLL REVEAL
-   12. RESPONSIVE — BASE
-   ============================================================ */
-
-      /* ----- 1. RESET & VARIABLES ----- */
       *,
       *::before,
       *::after {
@@ -50,7 +25,7 @@ https://templatemo.com/tm-619-axis-industrial
       }
 
       :root {
-        /* Palette */
+        
         --base: #ffffff;
         --ink: #000000;
         --safety: #ff3e00;
@@ -60,7 +35,6 @@ https://templatemo.com/tm-619-axis-industrial
         --term-green: #00ff66;
         --term-amber: #ffaa00;
 
-        /* Borders & Shadows */
         --border: 4px solid var(--ink);
         --border-thin: 1px solid var(--ink);
         --border-hair: 1px solid rgba(0, 0, 0, 0.1);
@@ -68,7 +42,6 @@ https://templatemo.com/tm-619-axis-industrial
         --shadow-safety: 8px 8px 0px var(--safety);
         --shadow-hover: 4px 4px 0px var(--ink);
 
-        /* Type Scale */
         --fs-hero: clamp(4rem, 14vw, 14rem);
         --fs-h1: clamp(2.4rem, 5vw, 5rem);
         --fs-h2: clamp(1.6rem, 3vw, 3rem);
@@ -80,11 +53,9 @@ https://templatemo.com/tm-619-axis-industrial
         --fs-stat: clamp(2.4rem, 5vw, 4.5rem);
         --fs-spec-val: clamp(2rem, 4vw, 3.5rem);
 
-        /* Spacing */
         --gap: clamp(1rem, 2vw, 2rem);
         --section-pad: clamp(4rem, 10vw, 10rem) clamp(1rem, 4vw, 4rem);
 
-        /* Layout */
         --cols: 12;
         --header-h: 44px;
       }
@@ -121,7 +92,6 @@ https://templatemo.com/tm-619-axis-industrial
         color: var(--base);
       }
 
-      /* ----- 2. BASE TYPOGRAPHY ----- */
       h1,
       h2,
       h3,
@@ -136,7 +106,6 @@ https://templatemo.com/tm-619-axis-industrial
         letter-spacing: -0.03em;
       }
 
-      /* ----- 3. UTILITY CLASSES ----- */
       .container {
         width: 100%;
         max-width: 1440px;
@@ -183,7 +152,6 @@ https://templatemo.com/tm-619-axis-industrial
         background: transparent;
       }
 
-      /* ----- 4. BUTTONS ----- */
       .btn {
         font-family: "JetBrains Mono", monospace;
         font-size: 0.72rem;
@@ -227,7 +195,6 @@ https://templatemo.com/tm-619-axis-industrial
         box-shadow: 12px 12px 0px var(--ink);
       }
 
-      /* ----- 5. HEADER / NAV ----- */
       .header {
         position: fixed;
         top: 0;
@@ -299,7 +266,6 @@ https://templatemo.com/tm-619-axis-industrial
         opacity: 0.4;
       }
 
-      /* Light-switch nav cells */
       .header__nav {
         display: flex;
         align-items: stretch;
@@ -327,7 +293,6 @@ https://templatemo.com/tm-619-axis-industrial
         color: var(--base);
       }
 
-      /* Active page highlight */
       .header__nav a.active {
         background: rgba(255, 255, 255, 0.06);
         color: var(--base);
@@ -395,7 +360,6 @@ https://templatemo.com/tm-619-axis-industrial
           opacity 0.3s;
       }
 
-      /* ----- 6. HERO (BASE) ----- */
       .hero {
         min-height: 100vh;
         min-height: 100svh;
@@ -557,7 +521,6 @@ https://templatemo.com/tm-619-axis-industrial
         }
       }
 
-      /* ----- 7. SECTION SHARED ----- */
       .section {
         padding: var(--section-pad);
         border-bottom: var(--border);
@@ -584,7 +547,6 @@ https://templatemo.com/tm-619-axis-industrial
         margin-bottom: clamp(2.5rem, 5vw, 5rem);
       }
 
-      /* ----- 8. BENTO / SPEC CARD BASE ----- */
       .bento-card {
         border: var(--border);
         box-shadow: var(--shadow);
@@ -653,7 +615,6 @@ https://templatemo.com/tm-619-axis-industrial
         align-self: end;
       }
 
-      /* Mini bar chart inside cards */
       .bar-chart {
         display: flex;
         align-items: flex-end;
@@ -673,7 +634,6 @@ https://templatemo.com/tm-619-axis-industrial
         border-color: var(--safety);
       }
 
-      /* Sparkline bars */
       .spark {
         display: flex;
         align-items: flex-end;
@@ -689,7 +649,6 @@ https://templatemo.com/tm-619-axis-industrial
         opacity: 0.7;
       }
 
-      /* Progress bar track */
       .bar-track {
         width: 100%;
         height: 4px;
@@ -717,7 +676,6 @@ https://templatemo.com/tm-619-axis-industrial
         background: var(--base);
       }
 
-      /* ----- 9. TICKER ----- */
       .ticker {
         border-bottom: var(--border);
         background: var(--ink);
@@ -775,7 +733,6 @@ https://templatemo.com/tm-619-axis-industrial
         }
       }
 
-      /* ----- 10. FOOTER ----- */
       .footer {
         background: var(--ink);
         color: var(--base);
@@ -787,7 +744,6 @@ https://templatemo.com/tm-619-axis-industrial
         margin: 0 auto;
       }
 
-      /* Footer — Compact (landing / observer) */
       .footer--compact .footer__inner {
         display: flex;
         justify-content: space-between;
@@ -831,7 +787,6 @@ https://templatemo.com/tm-619-axis-industrial
         color: var(--safety);
       }
 
-      /* Footer — Full (index page) */
       .footer__top {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -929,7 +884,6 @@ https://templatemo.com/tm-619-axis-industrial
         color: var(--safety);
       }
 
-      /* ----- 11. SCROLL REVEAL ----- */
       .reveal {
         opacity: 0;
         transform: translateY(24px);
@@ -943,7 +897,6 @@ https://templatemo.com/tm-619-axis-industrial
         transform: translateY(0);
       }
 
-      /* ----- 12. RESPONSIVE — BASE ----- */
       @media (max-width: 1024px) {
         .footer__brand {
           grid-column: span 12;
@@ -1047,17 +1000,6 @@ https://templatemo.com/tm-619-axis-industrial
       }
     </style>
     <style>
-      /*
-
-TemplateMo 619 Axis Industrial
-
-https://templatemo.com/tm-619-axis-industrial
-
-*/
-
-      /* ============================================================
-   INDEX PAGE — SPECIFIC STYLES
-   ============================================================ */
 
       .hero__grid--dense {
         background-size: 60px 60px;
@@ -1067,7 +1009,6 @@ https://templatemo.com/tm-619-axis-industrial
           linear-gradient(90deg, var(--ink) 1px, transparent 1px);
       }
 
-      /* Bento Grid */
       .bento__grid {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -1099,7 +1040,6 @@ https://templatemo.com/tm-619-axis-industrial
         opacity: 0.08;
       }
 
-      /* Sticky Stack Cards */
       .stack__header {
         margin-bottom: clamp(3rem, 6vw, 6rem);
         display: flex;
@@ -1197,7 +1137,6 @@ https://templatemo.com/tm-619-axis-industrial
         border-color: var(--safety);
       }
 
-      /* About / Template Info */
       .about {
         padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 4vw, 4rem);
         border-bottom: var(--border);
@@ -1259,16 +1198,10 @@ https://templatemo.com/tm-619-axis-industrial
         }
       }
     </style>
-    <!--
-
-TemplateMo 619 Axis Industrial
-
-https://templatemo.com/tm-619-axis-industrial
-
--->
+    
   </head>
   <body>
-    <!-- ====== HEADER ====== -->
+    
     <div class="header" role="banner">
       <div class="header__inner">
         <div class="header__left">
@@ -1327,7 +1260,6 @@ https://templatemo.com/tm-619-axis-industrial
       </div>
     </div>
 
-    <!-- ====== HERO ====== -->
     <section class="hero hero--center" style="min-height: 60vh;">
       <div class="hero__grid hero__grid--dense" aria-hidden="true"></div>
       <div class="hero__label reveal">
@@ -1341,7 +1273,6 @@ https://templatemo.com/tm-619-axis-industrial
       </h1>
     </section>
 
-    <!-- ====== CONTACT SECTION ====== -->
     <section class="section" id="contact-info">
       <div class="container">
         <div class="section__header reveal">
@@ -1405,7 +1336,6 @@ https://templatemo.com/tm-619-axis-industrial
       </div>
     </section>
 
-    <!-- ====== ABOUT THIS TEMPLATE ====== -->
     <section class="about">
       <div class="about__inner">
         <p class="about__text">
@@ -1428,7 +1358,6 @@ https://templatemo.com/tm-619-axis-industrial
       </div>
     </section>
 
-    <!-- ====== FOOTER ====== -->
     <div class="footer" role="contentinfo">
       <div class="footer__inner">
         <div class="footer__top">
@@ -1465,13 +1394,7 @@ https://templatemo.com/tm-619-axis-industrial
         </div>
         <div class="footer__bottom">
           <span class="footer__copy"
-            >&copy; 2026 Adridinan Najmi Faza. &nbsp;|&nbsp; Template by
-            <a
-              href="https://templatemo.com"
-              target="_blank"
-              rel="nofollow noopener"
-              >TemplateMo</a
-            ></span
+            >&copy; 2026 Adridinan Najmi Faza.</span
           >
           <button
             class="footer__back-top"
@@ -1485,22 +1408,10 @@ https://templatemo.com/tm-619-axis-industrial
     </div>
 
     <script>
-      /*
-
-TemplateMo 619 Axis Industrial
-
-https://templatemo.com/tm-619-axis-industrial
-
-*/
-
-      /* ============================================================
-   AXIS INDUSTRIAL — COMMON JAVASCRIPT
-   ============================================================ */
 
       (function () {
         "use strict";
 
-        /* ---- UTC Clock ---- */
         const clockEl = document.getElementById("utcClock");
         if (clockEl) {
           function updateClock() {
@@ -1515,7 +1426,6 @@ https://templatemo.com/tm-619-axis-industrial
           setInterval(updateClock, 1000);
         }
 
-        /* ---- Mobile Nav Toggle ---- */
         const burger = document.getElementById("headerBurger");
         const nav = document.getElementById("headerNav");
         if (burger && nav) {
@@ -1532,7 +1442,6 @@ https://templatemo.com/tm-619-axis-industrial
           });
         }
 
-        /* ---- Scroll Reveal (IntersectionObserver with stagger) ---- */
         var reveals = document.querySelectorAll(".reveal");
         if (reveals.length) {
           var revealObserver = new IntersectionObserver(
@@ -1554,7 +1463,6 @@ https://templatemo.com/tm-619-axis-industrial
             },
           );
 
-          /* Fallback: force reveal after 3s for iframe previews */
           setTimeout(function () {
             reveals.forEach(function (el) {
               if (!el.classList.contains("visible")) {
@@ -1568,7 +1476,6 @@ https://templatemo.com/tm-619-axis-industrial
           });
         }
 
-        /* ---- Bar Fill Animation on Scroll ---- */
         var barFills = document.querySelectorAll(".bar-track__fill");
         barFills.forEach(function (bar) {
           var targetWidth = bar.style.width;
@@ -1591,7 +1498,6 @@ https://templatemo.com/tm-619-axis-industrial
           barObserver.observe(bar);
         });
 
-        /* ---- Back to Top Button ---- */
         var backTop = document.getElementById("backToTop");
         if (backTop) {
           backTop.addEventListener("click", function () {
